@@ -1,0 +1,12 @@
+{% extends 'baseBack.html.twig' %}
+
+{% block title %}<title>New Offer</title>{% endblock %}
+
+{% block body %}
+    <div class="card" style="margin-left:40px;margin-top:25px;margin-right:40px;">
+        <div class="card-header" align="center">
+            <strong>Ajouter</strong> Offre
+        </div>
+            {{ include('offer/_form.html.twig') }}
+    </div>
+{% endblock %}
